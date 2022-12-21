@@ -58,7 +58,7 @@ let teamContent = '';
 // Creo un ciclo per generare l HTML
 for( let i = 0 ; i < teams.length ; i++){
     teamContent += `
-    <div class="col-2 d-flex flex-column my-4">
+    <div class="col-xl-2 col-md-4 d-flex flex-column my-4">
     <div class="card" style="width: 11rem;">
     <img src="img/${teams[i].image}" alt="${teams[i].name}" class="card-img-top" alt="...">
     <div class="card-body">
