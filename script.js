@@ -12,3 +12,38 @@ BONUS 1:
 Trasformare la stringa foto in una immagine effettiva
 BONUS 2:
 Organizzare i singoli membri in card/schede e rendere la pagina gradevole (potete usare lo screen in allegato come spunto */
+
+//Creo un array con i membri del team
+
+const teams = [
+    {
+        image : 'wayne-barnett-founder-ceo.jpg',
+        name : 'Wayne Barnett',
+        role :  'Founder & CEO',
+    },
+    {
+        image : 'angela-caroll-chief-editor.jpg',
+        name : 'Angela Carrol',
+        role :  'Chief Editor',
+    },
+    {
+        image : 'walter-gordon-office-manager.jpg',
+        name : 'Walter Gordon',
+        role :  'Office Manager',
+    },
+    {
+        image : 'angela-lopez-social-media-manager.jpg',
+        name : 'Angela Lopez',
+        role :  'Social Media Manager',
+    },
+    {
+        image : 'scott-estrada-developer.jpg',
+        name : 'Scott Estrada',
+        role :  'Developer',
+    },
+    {
+        image : 'barbara-ramos-graphic-designer.jpg',
+        name : 'Barbara Ramos',
+        role :  'Graphic Designer',
+    },
+];
