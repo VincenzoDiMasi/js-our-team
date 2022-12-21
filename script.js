@@ -59,9 +59,13 @@ let teamContent = '';
 for( let i = 0 ; i < teams.length ; i++){
     teamContent += `
     <div class="col-4 d-flex flex-column my-4">
-    <img class="rounded" src="img/${teams[i].image}" alt="${teams[i].name}">
-    <h4 class="mt-1">${teams[i].name}</h4>
-    <i>${teams[i].role}</i>
+    <div class="card" style="width: 18rem;">
+    <img src="img/${teams[i].image}" alt="${teams[i].name}" class="card-img-top" alt="...">
+    <div class="card-body">
+      <h5 class="card-title">${teams[i].name}</h5>
+      <p class="card-text">${teams[i].role}</p>
+    </div>
+  </div>
     </div>
     `
 }
