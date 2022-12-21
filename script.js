@@ -34,7 +34,7 @@ const teams = [
     {
         image : 'angela-lopez-social-media-manager.jpg',
         name : 'Angela Lopez',
-        role :  'Social Media Manager',
+        role :  'SMM',
     },
     {
         image : 'scott-estrada-developer.jpg',
@@ -58,8 +58,8 @@ let teamContent = '';
 // Creo un ciclo per generare l HTML
 for( let i = 0 ; i < teams.length ; i++){
     teamContent += `
-    <div class="col-4 d-flex flex-column my-4">
-    <div class="card" style="width: 18rem;">
+    <div class="col-2 d-flex flex-column my-4">
+    <div class="card" style="width: 11rem;">
     <img src="img/${teams[i].image}" alt="${teams[i].name}" class="card-img-top" alt="...">
     <div class="card-body">
       <h5 class="card-title">${teams[i].name}</h5>
