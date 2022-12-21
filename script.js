@@ -52,3 +52,20 @@ const teams = [
 //Prendo gli elementi dal DOM
 const teamCard = document.getElementById('team-card');
 
+//Creo una variabile per il conenuto della card
+let teamContent = '';
+
+// Creo un ciclo per generare l HTML
+for( let i = 0 ; i < teams.length ; i++){
+    teamContent += `
+    <div class="col-4 d-flex flex-column my-4">
+    <img class="rounded" src="img/${teams[i].image}" alt="${teams[i].name}">
+    <h4 class="mt-1">${teams[i].name}</h4>
+    <i>${teams[i].role}</i>
+    </div>
+    `
+}
+
+//Stampo in pagina
+teamCard.innerHTML = teamContent;
+
