@@ -47,3 +47,8 @@ const teams = [
         role :  'Graphic Designer',
     },
 ];
+
+
+//Prendo gli elementi dal DOM
+const teamCard = document.getElementById('team-card');
+
